@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+}
+html, body{
+    height: 100%;
+}
+.content{
+    font-family: verdana;
+    background-color: rgb(62, 61, 61);
+    height: 100%;
+}
+.header{
+    text-align: center;
+    padding: 1%;
+    background-color: grey;
+}
+
+.datos{
+    padding: 5%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 1%;
+}
+
+.datos input{
+    padding: 1%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: 0.55%;
+}
+
+.user h4{
+    text-align: left;
+}
+
+.gmail h4{
+    text-align: left;
+}
+
+.password h4{
+    text-align: left;
+}
+
+
+
+
+
+.reestablecer-registro{
+    text-align: center;
+    margin: 3%;
+}
+.reestablecer-registro button{
+    padding: 1.5%;
+    border-radius: 15px;
+    border: 1px solid rgb(255, 224, 224);
+    background-color: rgb(37, 25, 25);
+}
+.reestablecer-registro a{
+    text-decoration: none;
+}
+.reestablecer-registro button:hover{
+    background-color: rgb(115, 133, 133);
+    transition: 1.3s;
+}
+
+.login-buttons, .login-buttons p{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.login-button {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.login-button img {
+    width: 50px;
+    height: auto;
+}
+
+@media screen and (min-width: 720){
+    
+}

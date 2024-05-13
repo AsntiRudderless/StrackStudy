@@ -1,0 +1,61 @@
+.circle-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+  
+.circle-svg {
+    transform: rotate(-90deg);
+  }
+  
+.circle-background {
+    fill: none;
+    stroke: #ff0000;
+    stroke-width: 8;
+}
+  
+.circle-progress {
+    fill: none;
+    stroke: #2cf31a;
+    stroke-width: 8;
+    stroke-dasharray: 251;
+    stroke-dashoffset: 251;
+    transition: stroke-dashoffset 1s ease;
+}
+  
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fd0202;
+}
+  
+  /* Estilos previos */
+
+.boxes {
+    display: flex;
+  }
+  
+.box {
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: red;
+}
+  
+.present {
+    background-color: green;
+}
+  
+.late {
+    background-color: violet;
+}
+  
